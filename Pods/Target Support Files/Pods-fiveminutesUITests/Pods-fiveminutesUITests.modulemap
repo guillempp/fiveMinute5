@@ -1,0 +1,6 @@
+framework module Pods_fiveminutesUITests {
+  umbrella header "Pods-fiveminutesUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

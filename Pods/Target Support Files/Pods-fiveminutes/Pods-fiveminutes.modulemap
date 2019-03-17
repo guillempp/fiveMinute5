@@ -1,0 +1,6 @@
+framework module Pods_fiveminutes {
+  umbrella header "Pods-fiveminutes-umbrella.h"
+
+  export *
+  module * { export * }
+}

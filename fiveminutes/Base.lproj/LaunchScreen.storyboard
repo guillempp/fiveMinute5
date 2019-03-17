@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="something new" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="trA-7p-V9q">
+                                <rect key="frame" x="128" y="338" width="119" height="22"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                                <color key="textColor" red="0.90823972230000005" green="0.92638683320000004" blue="0.93171715740000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Let this be the start of " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Pj-yI-ak6">
+                                <rect key="frame" x="100" y="308" width="175" height="22"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                                <color key="textColor" red="0.90823972230000005" green="0.92638683320000004" blue="0.93171715740000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WUq-rW-bjn">
+                                <rect key="frame" x="100" y="243" width="175" height="37"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Minute5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s1I-6y-a0o">
+                                        <rect key="frame" x="50" y="0.0" width="119" height="37"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="31"/>
+                                        <color key="textColor" red="0.90823972230000005" green="0.92638683320000004" blue="0.93171715740000005" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="five" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HUB-JK-x0p">
+                                        <rect key="frame" x="5" y="0.0" width="45" height="37"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="31"/>
+                                        <color key="textColor" red="0.90823972225189209" green="0.92638683319091797" blue="0.9317171573638916" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="HUB-JK-x0p" secondAttribute="bottom" id="Jry-4T-c4J"/>
+                                    <constraint firstItem="HUB-JK-x0p" firstAttribute="baseline" secondItem="s1I-6y-a0o" secondAttribute="baseline" id="XnQ-lJ-dhF"/>
+                                    <constraint firstItem="HUB-JK-x0p" firstAttribute="leading" secondItem="WUq-rW-bjn" secondAttribute="leading" constant="5" id="ZAv-G8-84E"/>
+                                    <constraint firstItem="s1I-6y-a0o" firstAttribute="leading" secondItem="HUB-JK-x0p" secondAttribute="trailing" id="diq-9W-cFy"/>
+                                    <constraint firstItem="HUB-JK-x0p" firstAttribute="top" secondItem="WUq-rW-bjn" secondAttribute="top" id="g2V-m8-xbR"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.18198148906230927" green="0.69426733255386353" blue="0.53024792671203613" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="WUq-rW-bjn" firstAttribute="leading" secondItem="1Pj-yI-ak6" secondAttribute="leading" id="JXj-vz-Ute"/>
+                            <constraint firstItem="1Pj-yI-ak6" firstAttribute="centerX" secondItem="trA-7p-V9q" secondAttribute="centerX" id="NeT-K9-fXO"/>
+                            <constraint firstItem="1Pj-yI-ak6" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="YBw-ww-Y4E"/>
+                            <constraint firstItem="1Pj-yI-ak6" firstAttribute="top" secondItem="WUq-rW-bjn" secondAttribute="bottom" constant="28" id="cEk-5H-Ofw"/>
+                            <constraint firstItem="WUq-rW-bjn" firstAttribute="trailing" secondItem="1Pj-yI-ak6" secondAttribute="trailing" id="glE-8U-oJS"/>
+                            <constraint firstItem="WUq-rW-bjn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="223" id="u3G-hu-9za"/>
+                            <constraint firstItem="trA-7p-V9q" firstAttribute="top" secondItem="1Pj-yI-ak6" secondAttribute="bottom" constant="8" symbolic="YES" id="wos-br-LQY"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+</document>
